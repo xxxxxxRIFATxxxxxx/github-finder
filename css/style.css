@@ -1,0 +1,79 @@
+/* Common Style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    width: 60%;
+    margin: auto;
+}
+
+/* Search User Section Style */
+/* Input Field Style */
+input {
+    padding: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Button Style */
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+/* User Profile section Style */
+.user-profile {
+    width: 100%;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+.user-profile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profile-picture {
+    width: 30%;
+    float: left;
+}
+
+.profile-details {
+    width: 70%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Alert Style */
+.alert-success, .alert-failed {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.alert-success {
+    background-color: rgb(114, 199, 114);
+}
+
+.alert-failed {
+    background-color: rgb(230, 65, 65);
+}
+
+
+/* Footer Style */
+span {
+    color: red;
+}
